@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 class factorial{
-    int i=1,n,f=1ll;
+    int i=1,n;
+    long long f=1;
     public:
     void getval();
     void giveFact();
