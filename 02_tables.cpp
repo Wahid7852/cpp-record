@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class tables{
-    int n,product;
+    int n;
     public:
     void getval();
     int diplaytab(){
