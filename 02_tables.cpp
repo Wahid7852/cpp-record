@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 class tables{
-    int n;
+    int n,i;
     public:
     void getval();
     void diplaytab(){
-        int i=1;
+        i=1;
         while(i<=10){
             cout<<n<<"x"<<i<<"="<<n*i<<endl;
             i++;
