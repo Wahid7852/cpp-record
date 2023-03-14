@@ -4,7 +4,7 @@ class tables{
     int n;
     public:
     void getval();
-    int diplaytab(){
+    void diplaytab(){
         int i=1;
         while(i<=10){
             cout<<n<<"x"<<i<<"="<<n*i<<endl;
