@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 class arms{
-    int count,n,n1,n2,aS,digit ;
+    int count,n,n1,n2,result,digit ;
     public:
     void getval(){
         cin>>n;
@@ -17,17 +17,17 @@ class arms{
     }
     }
     void calc(){
-        aS=0;
+        result=0;
     while(n2!=0){
         digit=n2%10;
-        aS=aS+pow(digit,count);
+        result=result+pow(digit,count);
         n2/=10;
     }
     
     }
     void checkAS(){
         //check n==aS or not
-    if(aS==n)
+    if(result==n)
      cout<<" is an armstrong number";
     else 
      cout<<" is not armstrong number";
