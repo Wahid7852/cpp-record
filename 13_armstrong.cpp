@@ -11,7 +11,6 @@ class arms{
     void chckdigits(){
         count=0;
     while(n1!=0){
-        digit=n1%10;
         count++;
         n1/=10;
     }
