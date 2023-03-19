@@ -3,8 +3,7 @@ using namespace std;
 class prime{
     int i,n,flag;
     public:
-    prime(){
-        int n;
+    prime(){
         cout<<"enter no. to check prime: ";
         cin>>n;
         flag=0;
