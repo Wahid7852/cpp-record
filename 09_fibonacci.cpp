@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+
 class fibo{
     int i,n,t1,t2,NT;
     public:
